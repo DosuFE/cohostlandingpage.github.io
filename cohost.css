@@ -1,0 +1,748 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 20px 15px 15px 15px;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.branding>h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    padding-left: 5rem;
+}
+
+ul{
+    margin-top: -18px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 4rem;
+    margin-left: 10rem;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+ul a:hover{
+    color: rgb(91, 91, 233);
+}
+
+ul button{
+    width: 150px;
+    height: 45px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-top: -10px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 7px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main{
+    margin-left: 75px;
+}
+
+.main>h3{
+    padding-top: 70px;
+    font-size: 14px;
+    font-family: "open sans" sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-weight: 900;
+    color: rgb(137, 48, 238);
+}
+
+.main>h1{
+    max-width: 200px;
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: "open sans" sans-serif;
+    font-weight: 900;
+}
+
+.main>p{
+    padding-top: 20px;
+    font-size: 17px;
+    font-family: "open sans" sans-serif;
+    color: gray;
+    line-height: 35px;
+}
+
+.main>button, .vps_container>button{
+    margin-top: 25px;
+    width: 150px;
+    height: 60px;
+    background-color:   rgb(84, 84, 238);
+    border: 1.5px solid  rgb(84, 84, 238);
+    font-size: 15px;
+    color: white;
+    border-radius: 50px;
+}
+
+.main>button:hover, .vps_container>button:hover{
+    background-color: white;
+    color:   rgb(84, 84, 238);
+}
+
+.container>img{
+    width: 850px;
+    margin-top: -20px;
+    margin-right: 3rem;
+}
+
+.aside{
+    margin-left: 5rem;
+    padding-top: 55px;
+    display: flex;
+    gap: 10rem;
+}
+
+.side>h2{
+    font-size: 20px;
+    font-family: "open sans" sans-serif;
+    font-weight: 800;
+}
+
+.side>p{
+    padding-top: 5px;
+    font-size: 15ox;
+    font-family: "open sans" sans-serif;
+    color: gray;
+    word-spacing: 3px;
+}
+
+.quote{
+    margin-top: -20px;
+    background-color: rgb(84, 84, 238);
+    padding: 40px;
+    text-align: center;
+    border-radius: 50px 0 50px 0;
+}
+
+form input{
+    width: 280px;
+    height: 70px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    color: #0b0b0b;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+}
+
+form select{
+    width: 75px;
+    height: 71px;
+    position: relative;
+    left: -5px;
+    border-left: 2px solid rgb(179, 177, 177);
+    outline: none;
+    padding-left: 5px;
+    color: #0b0b0b;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form button{
+    width: 150px;
+    height: 69px;
+    position: relative;
+    left: -10px;
+    border: none;
+    background-color: rgb(58, 236, 18);
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.sub-select input{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 15px;
+    color: white;
+}
+
+.sec-2{
+    background-color: whitesmoke;
+}
+
+.sec-2 h2{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "open sans" sans-serif;
+    font-weight: 700;
+}
+
+.sec-2>p{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 35px;
+    font-size: 16px;
+    font-family: "open sans" sans-serif;
+    color: gray;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+
+.grid-1{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+    background-color: white;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.flex-child>h4{
+    font-size: 20px;
+    font-family: "open sans" sans-serif;
+    font-weight: 800;
+}
+
+.flex-child>p{
+    max-width: 300px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: "open sans" sans-serif;
+    color: gray;
+    line-height: 30px;
+}
+.flex-1:hover, .flex-2:hover{
+    background-color: blue;
+}
+
+.flex-1 img:hover, .flex-2 img:hover{
+    background-color: white;
+    border-radius: 50%;
+}
+
+.flex-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.grid-2{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-3{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.brand{
+    margin-top: 100px;
+    padding: 80px ;
+    background-image: linear-gradient(rgb(64, 64, 247), rgb(107, 107, 221));
+    text-align: center;
+}
+
+.brand>p{
+    font-family: "open sans" sans-serif;
+    font-size: 12px;
+    color: gainsboro;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+.host{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+    font-size: 30px;
+    font-family: "open sans" sans-serif;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+.awards{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7.5rem;
+    font-size: 17px;
+    font-family: "open sans" sans-serif;
+    color: rgb(173, 171, 171);
+    word-spacing: 5px;
+}
+
+.product{
+    padding-top: 50px;
+    margin-left: 10rem;
+}
+
+.product>h2{
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: "open sans" sans-serif;
+}
+
+.product>p{
+    max-width: 500px;
+    padding-top: 40px;
+    font-size: 17px;
+    font-family: "open sans" sans-serif;
+    color: gray;
+    line-height: 30px;
+    word-spacing: 3px;
+}
+
+.product>img{
+    width: 500px;
+}
+
+.services{
+    display: flex;
+    /* justify-content: center; */
+    gap: 5rem;
+}
+
+.supply{
+    padding-top: 50px;
+}
+
+.sup{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.supply-child{
+    background-color: white;
+    border: 1.7px solid rgb(207, 203, 203);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.supply-child:hover{
+    background-color: rgb(64, 64, 247);
+}
+
+.supply-child>img{
+    padding-top: 30px;
+}
+
+/* .supply-child>img:hover{
+    background-color: white;
+    border-radius: 50%;
+
+} */
+
+.supply-child>h4{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.supply-child>p{
+    max-width: 230px;
+    padding: 15px 10px 40px 10px;
+    font-size: 15px;
+    font-family: "open sans" sans-serif;
+    color: gray;
+    line-height: 30px;
+    word-spacing: 3px;
+}
+
+.sup-2{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.sec-4{
+    background-color: ghostwhite;
+    margin-top: 9rem;
+}
+
+.pricing>h2{
+    padding-top: 7rem;
+    text-align: center;
+    font-size: 35px;
+    font-family: "open sans" sans-serif;
+    font-weight: bolder;
+}
+
+.grade{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.storage{
+    margin-bottom: 5rem;
+    background-color: white;
+    padding: 20px 25px 40px 25px;
+    text-align: center;
+}
+
+.grip{
+    color: rgb(228, 226, 226);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.storage>h2{
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "open sans" sans-serif;
+}
+
+sup{
+    font-family: "open sans" sans-serif;
+    font-size: 20px;
+    color: #1f1e1e;
+}
+
+sub{
+    font-family: "open sans" sans-serif;
+    font-size: 12px;
+    color: #2c2a2a;
+}
+
+.free{
+    padding-top: 20px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    word-spacing: 3px;
+}
+
+.features{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+}
+
+.gb{
+    padding-top: 20px;
+}
+
+strong{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+span{
+    color: gray;
+}
+
+.order{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+    color: gray;
+}
+
+.storage>button{
+    padding: 30px;
+    width: 250px;
+    border: none;
+    background-color:  rgb(84, 84, 238);
+    font-size: 16px;
+    color: white;
+    border-radius: 50px;
+}
+
+.storage>button:hover{
+    border: 3px solid skyblue;
+}
+
+.sec-5{
+    text-align: center;
+}
+
+.customers{
+    padding-top: 80px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2c2a2a;
+}
+
+.sec-5>h2, .blog_container>h3{
+    padding-top: 20px;
+    font-size: 35px;
+    font-family: "opens sans" sans-serif;
+}
+
+.far, .blog_container>p{
+    padding-top: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+    line-height: 25px;
+}
+
+.off>img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.lay{
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 100px;
+    gap: 20px;
+}
+
+.off{
+    background-color: white;
+    border: 1.8px solid rgb(233, 231, 231);
+    padding: 30px 20px 10px 20px;
+}
+
+.grade-1{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    line-height: 30px;letter-spacing: 2px;
+}
+
+.off>h4{
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.grade{
+    margin-top: -70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(209, 208, 208);
+}
+
+.sec-6{
+    background-color: whitesmoke;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sec-6>p{
+    text-align: center;
+}
+
+.sec-6>h2{
+    padding-top: 10px;
+    font-size: 35px;
+    font-family: "opens sans" sans-serif;
+    text-align: center;
+}
+
+.sec-6>button{
+    margin-top: 80px;
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 1.5px solid blue;
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "opens sans";
+    border-radius: 5px;
+}
+
+.sec-6>button:hover{
+    background-color: rgb(5, 231, 5);
+    color: white;
+    border: none;
+}
+
+.vps>img{
+    width: 500px;
+}
+
+.vps{
+    margin-left: 30px;
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vps_container{
+    margin-top: 50px;
+    margin-left: -3rem;
+}
+
+.vps_container>h3{
+    text-align: left;
+    font-size:  30px;
+}
+
+.vps_container>p{
+    text-align: left;
+    padding-top: 25px;
+    max-width: 550px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    line-height: 30px;
+    word-spacing: 3px;
+}
+
+.vps_container>button{
+    margin-right: 30rem;
+}
+
+.blog_container{
+    padding-top: 10rem;
+}
+
+.our>img{
+    width: 350px;
+}
+
+.our{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.iconic{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.ionic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ion{
+    margin-left: 30px;
+}
+
+.may, .admin, .three{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    letter-spacing: 1.5px;
+}
+
+.admin{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+svg{
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+.three{
+    margin-top: -12px;
+    margin-left: 40px;
+}
+
+.con{
+    max-width: 200px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.con:hover{
+    color: blue;
+}
+
+.sec-7>img{
+    width: 150px;
+}
+
+.sec-7{
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+footer{
+    padding-left: 5rem;
+    background-image: linear-gradient(rgb(60, 60, 214), indigo, rgb(50, 50, 145));
+}
+
+.newsletter{
+    padding-top: 80px;
+    display: flex;
+    gap: 30%;
+    color: rgba(236, 235, 235, 0.863);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.blackquote{
+    margin-top: 20px;
+    display: flex;
+    gap: 20%;
+}
+
+.blackquote>h2{
+    color: white;
+    font-size: 30px;
+}
